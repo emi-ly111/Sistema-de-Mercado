@@ -14,7 +14,11 @@ void fecharPedido() {
         printf("Total a pagar: R$ %.2f\n", total);
         totalCarrinho = 0;
         printf("Pedido fechado com sucesso!\n");
+        Sleep(1500);
+        system("cls");
     } else {
         printf("Carrinho vazio.\n");
+        Sleep(1500);
+        system("cls");
     }
 }

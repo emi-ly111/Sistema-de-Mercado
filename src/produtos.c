@@ -1,6 +1,7 @@
 #include "produtos.h"
 #include <stdio.h>
 #include <string.h>
+#include <windows.h>
 
 #define MAX_PRODUTOS 50
 
@@ -12,7 +13,8 @@ void cadastrarProduto() {
         Produto novoProduto;
         novoProduto.codigo = totalProdutos + 1;
         printf("Nome do produto: ");
-        scanf("%s", novoProduto.nome);
+        fflush(stdin);
+        scanf("%100[^\n]", novoProduto.nome);
         printf("Preco do produto: ");
         scanf("%f", &novoProduto.preco);
 
@@ -20,8 +22,12 @@ void cadastrarProduto() {
         totalProdutos++;
 
         printf("Produto cadastrado com sucesso!\n");
+        Sleep(1500);
+        system("cls");
     } else {
         printf("Limite de produtos atingido.\n");
+        Sleep(1500);
+        system("cls");
     }
 }
 

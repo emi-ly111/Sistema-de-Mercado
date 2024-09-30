@@ -28,11 +28,17 @@ void comprarProduto() {
             totalCarrinho++;
         } else {
             printf("Carrinho cheio.\n");
+            Sleep(1500);
+            system("cls");
         }
 
         printf("Produto adicionado ao carrinho!\n");
+        Sleep(1500);
+        system("cls");
     } else {
         printf("Produto nao encontrado.\n");
+        Sleep(1500);
+        system("cls");
     }
 }
 
@@ -42,8 +48,12 @@ void visualizarCarrinho() {
         for (int i = 0; i < totalCarrinho; i++) {
             printf("%s (Quantidade: %d)\n", carrinho[i].produto.nome, carrinho[i].quantidade);
         }
+        Sleep(1500);
+        system("cls");
     } else {
         printf("Carrinho vazio.\n");
+        Sleep(1500);
+        system("cls");
     }
 }
 

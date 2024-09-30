@@ -3,7 +3,7 @@
 
 typedef struct {
     int codigo;
-    char nome[30];
+    char nome[100];
     float preco;
 } Produto;
 
