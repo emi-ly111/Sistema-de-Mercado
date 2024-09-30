@@ -10,6 +10,6 @@ typedef struct {
 void cadastrarProduto();
 void listarProdutos();
 Produto pegarProdutoPorCodigo(int codigo);
-
+void excluirProduto();
 #endif
 
