@@ -47,3 +47,4 @@ Produto pegarProdutoPorCodigo(int codigo) {
     Produto vazio = {0, "", 0.0};
     return vazio;
 }
+void excluirProduto(){}
