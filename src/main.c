@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include "produtos.h"
-#include "carrinho.h"
-#include "pedidos.h"
+#include "produtos.c"
+#include "carrinho.c"
+#include "pedidos.c"
 
 void menu();
 
