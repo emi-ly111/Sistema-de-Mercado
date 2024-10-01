@@ -29,7 +29,10 @@ O sistema é organizado em diferentes arquivos de código, cada um responsável 
 4. **Visualização do Carrinho**:
    - O usuário pode visualizar os produtos no carrinho, juntamente com as quantidades.
 
-5. **Fechamento de Pedido**:
+5. **Remoção de Produtos**:
+   - O usuário poderá remover produtos do carrinhp que não deseja mais.
+
+6. **Fechamento de Pedido**:
    - O sistema calcula o valor total da compra e exibe um resumo detalhado.
    - Após fechar o pedido, o carrinho é esvaziado e o sistema retorna ao menu principal.
 
