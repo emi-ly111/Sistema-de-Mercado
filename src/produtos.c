@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <windows.h> // Inclui a biblioteca para usar a função Sleep
+#include <ctype.h> //para a função isdigit
 
 #define MAX_PRODUTOS 50 // Define o número máximo de produtos que podem ser cadastrados
 
