@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto é um sistema simples de supermercado desenvolvido em C, utilizando conceitos de estrutura de dados como structs, arrays e funções. O sistema permite o cadastro de produtos, listagem, adição ao carrinho, visualização do carrinho e fechamento de pedidos.
+Este projeto é um sistema simples de supermercado desenvolvido em C, utilizando conceitos de estrutura de dados como structs, arrays e funções. O sistema permite o cadastro de produtos, listagem, adição ao carrinho, visualização do carrinho, remoção de produtos e fechamento de pedidos.
 
 ## Estrutura do Código
 
