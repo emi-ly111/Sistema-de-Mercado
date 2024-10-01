@@ -45,22 +45,12 @@ O sistema é organizado em diferentes arquivos de código, cada um responsável 
 5. - removerProdutoDoCarrinho();
 6. - fecharPedido();
 
-## Compilação e Execução
-
-Para compilar e executar o sistema, utilize um compilador de C (como gcc). Siga os passos abaixo:
-
-- Abra o terminal.
-- Navegue até o diretório onde os arquivos estão armazenados.
-- Execute os comandos:
-  gcc -o supermercado main.c produtos.c carrinho.c pedidos.c
-./supermercado
-
-###Compilação e Execução via Botão de Play no Vscode
+### Compilação e Execução via Botão de Play no Vscode
 
 **Esse projeto foi feito diretamente pelo Vscode**, siga o passo a passo para compilar o projeto por essa IDE:
 
-Certifique-se de que você tem o Code Runner instalado. Se não tiver, você pode instalá-lo a partir da extensão do Visual Studio Code.
-Abra o arquivo principal (main.c).
-Clique no botão de "Play" que aparece na parte superior direita da tela. Isso irá compilar e executar o programa automaticamente.
+- Certifique-se de que você tem o Code Runner instalado. Se não tiver, você pode instalá-lo a partir da extensão do Visual Studio Code.
+- Abra o arquivo principal (main.c).
+- Clique no botão de "Play" que aparece na parte superior direita da tela. Isso irá compilar e executar o programa automaticamente.
 
 
