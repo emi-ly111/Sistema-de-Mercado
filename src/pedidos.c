@@ -18,8 +18,6 @@ void fecharPedido() {
         printf("Total a pagar: R$ %.2f\n", total);
         totalCarrinho = 0; // Limpa o carrinho após o fechamento do pedido
         printf("Pedido fechado com sucesso!\n"); // Mensagem de sucesso
-        Sleep(1500); // Pausa para visualização
-        system("cls"); // Limpa a tela
     } else {
         // Mensagem se o carrinho estiver vazio
         printf("Carrinho vazio.\n");
